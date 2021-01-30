@@ -40,6 +40,7 @@ class Archer extends Character {
         $this->arrow -= 1 * $this->nbrShoot;
         $this->nbrShoot = 1;
         $this->multiplier = 1;
+        $this->aim = false;
         return $status;
     }
 
